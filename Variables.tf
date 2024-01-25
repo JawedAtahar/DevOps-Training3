@@ -1,4 +1,4 @@
-resource = var "azurerm_resource_group" "rg" {
-  location = var.resource_group_location
-  name     = var _DevOpsTraining"
+variable "resource_group_location" {
+  default     = "eastus"
+  description = "Location of the resource group."
 }
