@@ -1,4 +1,4 @@
-resource var_resource_group" "rg" {
+resource = var "azurerm_resource_group" "rg" {
   location = var.resource_group_location
-  name     = "${random_pet.prefix.id}-rg"
+  name     = var _DevOpsTraining"
 }
